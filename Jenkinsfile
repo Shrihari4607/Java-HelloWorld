@@ -20,8 +20,9 @@ agent any
 
             steps {
 
-                bat 'javac Hello.java'
-		bat 'java Hello'
+                //bat 'javac Hello.java'
+		//bat 'java Hello'
+		    echo 'build'
 
             }
         }
