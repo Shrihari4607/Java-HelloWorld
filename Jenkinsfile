@@ -4,7 +4,7 @@ agent any
 
     stages {
 
-	stage('SCM')
+	/*stage('SCM')
 {
 
             steps {
@@ -13,7 +13,7 @@ agent any
 
             }
 
-        }
+        }*/
 
         stage('build')
  {
